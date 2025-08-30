@@ -1,0 +1,102 @@
+/* style.css */
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  
+  /* Headings */
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    margin: 20px 0;
+    font-size: 1.3rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  /* Options Styling */
+  #displayOption {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  #displayOption button {
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  #displayOption button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+  }
+  
+  #displayOption button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Navigation Buttons */
+  div button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+  }
+  
+  div button:hover {
+    background: #f8d90f;
+    color: #000;
+    transform: translateY(-2px);
+  }
+  
+  div button:active {
+    transform: scale(0.96);
+  }
+  
+  /* Timer */
+  #timerDisplay {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffeb3b;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+  }
+  
